@@ -1,0 +1,29 @@
+{
+  "name": "zeo-alliance-popup",
+  "version": "1.0.0",
+  "description": "Simple popup on native css + js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladkampov/zeo-alliance-popup.git"
+  },
+  "keywords": [
+    "ZeoAlliance"
+  ],
+  "author": "Vlad Kampov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladkampov/zeo-alliance-popup/issues"
+  },
+  "homepage": "https://github.com/vladkampov/zeo-alliance-popup#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
