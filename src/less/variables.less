@@ -1,0 +1,22 @@
+@popupBg: #ffffff;
+@popupTextColor: #444953;
+@popupFontSize: 2em;
+@popupCancelColor: #8b93a3;
+@popupCancelBorderColor: #d7deea;
+@popupUninstallColor: #ffffff;
+@popupUninstallBgColor: #ff3b30;
+@popupUninstallBorderColor: #d93229;
+
+.transition (@seconds: .3s) {
+  -webkit-transition-duration: @arguments;
+  -o-transition-duration: @arguments;
+  -moz-transition-duration: @arguments;
+  transition-duration: @arguments;
+}
+.clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

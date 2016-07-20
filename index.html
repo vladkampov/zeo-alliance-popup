@@ -4,8 +4,25 @@
   <meta charset="UTF-8">
   <title>Zeo Alliance Popup</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="build/css/style.css">
 </head>
 <body>
+  <a href="javascript:void(0)" class="activate_popup" data-popup="uninstall">Activate popup</a>
 
+
+  <!-- popup -->
+  <div class="popup_holder" data-popup="uninstall">
+    <div class="popup_holder__popup">
+      <a href="javascript:void(0)" data-event="close"><img src="img/icon-popup-close.svg" alt="close"></a>
+      <p class="popup_holder__title">Are you sure you want to uninstall<br/> the Shazam app?</p>
+      <p class="popup_holder__controlls">
+        <a href="javascript:void(0)" class="popup_holder__button" data-event="close">Cancel</a>
+        <a href="javascript:void(0)" class="popup_holder__button popup_holder__button--red" data-event="close" data-uninstall="true">Uninstall</a>
+      </p>
+    </div>
+  </div>
+  <script src="build/js/libs.js"></script>
+  <script src="build/js/app.js"></script>
+</body>
 </body>
 </html>
