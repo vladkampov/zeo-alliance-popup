@@ -23,3 +23,10 @@
   });
 
 }).call(this);
+
+(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+    return $('.preloader').fadeOut(300);
+  });
+
+}).call(this);

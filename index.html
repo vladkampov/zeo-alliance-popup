@@ -7,8 +7,9 @@
   <link rel="stylesheet" href="build/css/style.css">
 </head>
 <body>
-  <a href="javascript:void(0)" class="activate_popup" data-popup="uninstall">Activate popup</a>
-
+  <p><a href="javascript:void(0)" class="activate_popup" data-popup="uninstall">Activate popup</a></p>
+  
+  <p class="by">by <a href="kampov.com" target="_blank">Vlad Kampov</a> for <a href="http://zeoalliance.com/" target="_blank">Zeo Alliance</a></p>
 
   <!-- popup -->
   <div class="popup_holder" data-popup="uninstall">
@@ -19,6 +20,18 @@
         <a href="javascript:void(0)" class="popup_holder__button" data-event="close">Cancel</a>
         <a href="javascript:void(0)" class="popup_holder__button popup_holder__button--red" data-event="close" data-uninstall="true">Uninstall</a>
       </p>
+    </div>
+  </div>
+
+  <!-- preloader -->
+  <div class="preloader">
+    <div class="preloader__container">
+      <div class="preloader__elements_holder">
+        <div class="preloader__element preloader__element--four"></div>
+        <div class="preloader__element preloader__element--three"></div>
+        <div class="preloader__element preloader__element--two"></div>
+        <div class="preloader__element preloader__element--one"></div>
+      </div>
     </div>
   </div>
   <script src="build/js/libs.js"></script>
